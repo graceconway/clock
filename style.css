@@ -1,0 +1,67 @@
+.main {
+display: flex;
+padding: 3em;
+justify-content: center;
+height: auto;
+
+
+
+}
+
+.circleclock
+#clock {
+    height: 100%;
+  }
+
+.circle {
+  stroke: #rgb(255, 0, 0);
+  stroke-width: 8;
+
+
+
+}
+
+.innercircle {
+  fill: #000
+
+}
+
+.hour-marking {
+  stroke: #000;
+  stroke-width: 8;
+
+
+}
+
+.hour-arm {
+    stroke: #000;
+    stroke-width: 19;
+
+
+
+}
+
+.minute-arm {
+  stroke: #000;
+  stroke-width: 11;
+
+}
+
+.second-arm {
+  stroke: #000;
+  stroke-width: 6;
+
+}
+
+.sizing-box {
+  fill: none;
+
+}
+
+/* Applies to all three ids. */
+#hour,
+#minute,
+#second {
+    transform-origin: 350px 350px;
+    transition
+}
